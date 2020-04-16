@@ -74,5 +74,10 @@ public class Holamundo {
       cadena = entradal.nextLine();
       System.out.println("La cadena es  "+ cadena);
 
+      //Declaracion de entrada de Caracter
+      Scanner entradac = new Scanner(System.in);
+      System.out.println("Digite un caracter");
+      u = entradac.next().charAt(1); //el comando .charAt(0); indica que solo lea el primer caracter
+      System.out.println("La cadena es  "+ u);
     }
 }
