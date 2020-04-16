@@ -2,9 +2,8 @@ public class Holamundo {
    public static void main (String[] args){
        System.out.println("Hola Mundo"); // con salto de linea (comentario "//")
        System.out.println("linea sin salto de linea"); // sin salto de linea
-   /* esto es un ejemplo 
-      de  comentario de 
-      varias lineas
+   /* Este conjunto de variables se consideran con datos primitivos
+      es decir no aceptan el valor null
     */
     byte   b = 127;        //declaracion de variable byte -128 a 127
     short  s = 32767;      //declaracion de variable short -32768 a 32767  
@@ -15,7 +14,15 @@ public class Holamundo {
     char   u; u = 'u';     //declaracion de variable tipo Char, almacenda solo un caracter, debe declararse, e inicializarce 
     boolean boo = true;     //declaracion de variable Booleana
     
-    System.out.println("Valor de Variable Entera tipo" + b);    
+    /*
+    Declaracion de Variables no Primitivas
+    */
+     Integer nombre_variable = null;
+    /*
+    Impresion de variables en consola
+    */
+
+    System.out.println("Valor de Variable Entera tipo "+ b);    
     System.out.println("Valor de Variable Entera tipo Short "+ s);
     System.out.println("Valor de Variable Entera tipo int "+ i);
     System.out.println("Valor de Variable Entera tipo long "+ l);
@@ -23,5 +30,6 @@ public class Holamundo {
     System.out.println("Valor de Variable Decimal tipo double "+ d);
     System.out.println("Valor de Variable tipo char "+ u);
     System.out.println("Valor de Variable tipo Booleana "+ boo);
+    
     }
 }
