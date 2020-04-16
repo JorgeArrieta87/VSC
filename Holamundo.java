@@ -19,6 +19,11 @@ public class Holamundo {
     */
     Integer nombrevariable = null;                //declaracion de variable no primitiva (acepta el valor "null")
     String tipovariable = "--Cadena de caracteres--"; //declaracion de variable no primitiva  (cadena de caracteres)
+    
+    /*
+    Declaracion de Constantes
+    */
+    final int constante = 2020;
     /*
     Impresion de variables en consola
     */
@@ -33,5 +38,6 @@ public class Holamundo {
     System.out.println("Valor de Variable tipo Booleana "+ boo);
     System.out.println("Valor de Variable tipo No Primitiva "+ nombrevariable);
     System.out.println("Valor de Variable tipo No Primitiva "+ tipovariable);
+    System.out.println("Valor de Constante "+ constante);
     }
 }
