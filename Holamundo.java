@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class Holamundo {
    public static void main (String[] args){
-       System.out.println("Hola Mundo"); // con salto de linea (comentario "//")
+       System.out.println("Hola Mundo");               // con salto de linea (comentario "//")
        System.out.println("linea sin salto de linea"); // sin salto de linea
    /* Este conjunto de variables se consideran con datos primitivos
       es decir no aceptan el valor null
@@ -17,7 +19,7 @@ public class Holamundo {
     /*
     Declaracion de Variables no Primitivas
     */
-    Integer nombrevariable = null;                //declaracion de variable no primitiva (acepta el valor "null")
+    Integer nombrevariable = null;                    //declaracion de variable no primitiva (acepta el valor "null")
     String tipovariable = "--Cadena de caracteres--"; //declaracion de variable no primitiva  (cadena de caracteres)
     
     /*
@@ -39,5 +41,13 @@ public class Holamundo {
     System.out.println("Valor de Variable tipo No Primitiva "+ nombrevariable);
     System.out.println("Valor de Variable tipo No Primitiva "+ tipovariable);
     System.out.println("Valor de Constante "+ constante);
+    
+    //Seccion 1 Capitulo 9 Entrada y Salida de datos
+    Scanner entrada = new Scanner(System.in);
+    int numero;
+
+    System.out.print("Digite Numero");
+    numero = entrada.nextInt();
+    System.out.print("el Numero es  "+ numero);
     }
 }
