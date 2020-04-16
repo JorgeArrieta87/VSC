@@ -20,7 +20,7 @@ public class Holamundo {
     Declaracion de Variables no Primitivas
     */
     Integer nombrevariable = null;                    //declaracion de variable no primitiva (acepta el valor "null")
-    String tipovariable = "--Cadena de caracteres--"; //declaracion de variable no primitiva  (cadena de caracteres)
+    String cadena = "--Cadena de caracteres--"; //declaracion de variable no primitiva  (cadena de caracteres)
     
     /*
     Declaracion de Constantes
@@ -39,35 +39,40 @@ public class Holamundo {
     System.out.println("Valor de Variable tipo char "+ u);
     System.out.println("Valor de Variable tipo Booleana "+ boo);
     System.out.println("Valor de Variable tipo No Primitiva "+ nombrevariable);
-    System.out.println("Valor de Variable tipo No Primitiva "+ tipovariable);
+    System.out.println("Valor de Variable tipo No Primitiva "+ cadena);
     System.out.println("Valor de Constante "+ constante);
     
     //Seccion 1 Capitulo 9 Entrada y Salida de datos
     
     //Declaracion de entrada de Dato Entero
     Scanner entradai = new Scanner(System.in);
-    
-
     System.out.println("Digite Numero");
     i = entradai.nextInt();
     System.out.println("el Numero es  "+ i);
 
     //Declaracion de entrada de Dato float
     Scanner entradaf = new Scanner(System.in);
-    
-
     System.out.println("Digite Numero decimal");
     f = entradaf.nextFloat();
     System.out.println("el Numero es  "+ f);
 
      //Declaracion de entrada de Dato double
      Scanner entradad = new Scanner(System.in);
-    
-
      System.out.println("Digite Numero decimal");
-     d = entradaf.nextFloat();
+     d = entradad.nextFloat();
      System.out.println("el Numero es  "+ d);
 
+      //Declaracion de entrada de Dato String
+      Scanner entradas = new Scanner(System.in);
+      System.out.println("Digite una cadena");
+      cadena = entradas.next();
+      System.out.println("La cadena es  "+ cadena);
+
+      //Declaracion de entrada de Dato String linea completa
+      Scanner entradal = new Scanner(System.in);
+      System.out.println("Digite una cadena");
+      cadena = entradal.nextLine();
+      System.out.println("La cadena es  "+ cadena);
 
     }
 }
