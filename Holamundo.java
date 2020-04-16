@@ -17,7 +17,8 @@ public class Holamundo {
     /*
     Declaracion de Variables no Primitivas
     */
-     Integer nombre_variable = null;
+    Integer nombrevariable = null;                //declaracion de variable no primitiva (acepta el valor "null")
+    String tipovariable = "--Cadena de caracteres--"; //declaracion de variable no primitiva  (cadena de caracteres)
     /*
     Impresion de variables en consola
     */
@@ -30,6 +31,7 @@ public class Holamundo {
     System.out.println("Valor de Variable Decimal tipo double "+ d);
     System.out.println("Valor de Variable tipo char "+ u);
     System.out.println("Valor de Variable tipo Booleana "+ boo);
-    
+    System.out.println("Valor de Variable tipo No Primitiva "+ nombrevariable);
+    System.out.println("Valor de Variable tipo No Primitiva "+ tipovariable);
     }
 }
