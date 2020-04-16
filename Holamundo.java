@@ -43,11 +43,31 @@ public class Holamundo {
     System.out.println("Valor de Constante "+ constante);
     
     //Seccion 1 Capitulo 9 Entrada y Salida de datos
-    Scanner entrada = new Scanner(System.in);
-    int numero;
+    
+    //Declaracion de entrada de Dato Entero
+    Scanner entradai = new Scanner(System.in);
+    
 
-    System.out.print("Digite Numero");
-    numero = entrada.nextInt();
-    System.out.print("el Numero es  "+ numero);
+    System.out.println("Digite Numero");
+    i = entradai.nextInt();
+    System.out.println("el Numero es  "+ i);
+
+    //Declaracion de entrada de Dato float
+    Scanner entradaf = new Scanner(System.in);
+    
+
+    System.out.println("Digite Numero decimal");
+    f = entradaf.nextFloat();
+    System.out.println("el Numero es  "+ f);
+
+     //Declaracion de entrada de Dato double
+     Scanner entradad = new Scanner(System.in);
+    
+
+     System.out.println("Digite Numero decimal");
+     d = entradaf.nextFloat();
+     System.out.println("el Numero es  "+ d);
+
+
     }
 }
