@@ -89,7 +89,9 @@ public class Holamundo {
     d = Double.parseDouble(JOptionPane.showInputDialog("Digite un Decimal"));       //Double.parseDouble permite convertir texto a decimal 
     f = Float.parseFloat(JOptionPane.showInputDialog("Digite un decimal extenso"));         //Float.parseFloat permite convertir texto a decimal 
 
-    JOptionPane.showMessageDialog(null, "La cadena es "+ cadena);
+    /* este conjunto de lineas permiten entregar los datos almacenados en las variables antes guardadas
+       en memoria, atraves de la JOptionPane.showMessageDialog    */
+    JOptionPane.showMessageDialog(null, "La cadena es "+ cadena);               
     JOptionPane.showMessageDialog(null, "El numero es  "+ i);
     JOptionPane.showMessageDialog(null, "El caracter es  "+ c);
     JOptionPane.showMessageDialog(null, "El valor decimal  es  "+ d);
