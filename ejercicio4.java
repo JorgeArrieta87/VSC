@@ -4,6 +4,7 @@ public class ejercicio4 {
     public static void main(String[]args){
     Scanner entradaf = new Scanner(System.in);
     float avf,acf,sumaf; 
+    final int porcenventa = 5;
     final int sueldo = 1000;
     final int comisionv = 150;
     System.out.println("Ingrese el monto de la venta de los Autos");
@@ -12,7 +13,7 @@ public class ejercicio4 {
     acf = entradaf.nextFloat();
     
     
-    avf = (avf*5)/100;
+    avf = (avf*porcenventa)/100;
     System.out.println("El monto de la comision por volumen de venta  "+ avf);
    
     acf = acf*comisionv;
