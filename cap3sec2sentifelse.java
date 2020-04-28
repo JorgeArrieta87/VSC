@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ejercicio8 {
+public class cap3sec2sentifelse {
 
     public static void main(String[]args){
     Scanner entradan = new Scanner(System.in);
@@ -13,12 +13,9 @@ public class ejercicio8 {
     System.out.println("Ingrese el valor de C");
     c = entradan.nextDouble();
     
-    resultadop = -b +Math.sqrt(Math.pow(b,2)) - (4*a*c)/(2*a);
-    resultadon = -b -Math.sqrt(Math.pow(b,2)) - (4*a*c)/(2*a);
+    resultadop = (-b +Math.sqrt(Math.pow(b,2) - (4*a*c)))/(2*a);
+    resultadon = (-b -Math.sqrt(Math.pow(b,2) - (4*a*c)))/(2*a);
     
-    System.out.println("El valor de  a es " +a);
-    System.out.println("El valor de  b es " +b);
-    System.out.println("El valor de  c es " +c);
     System.out.println("El valor positivo es " +resultadop);
     System.out.println("El valor negativo es " +resultadon);
     }    
