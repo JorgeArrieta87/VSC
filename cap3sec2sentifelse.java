@@ -1,23 +1,30 @@
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 public class cap3sec2sentifelse {
 
     public static void main(String[]args){
-    Scanner entradan = new Scanner(System.in);
-    double a, b, c, resultadop, resultadon;
-
-
-    System.out.println("Ingrese el valor de A");
-    a = entradan.nextDouble();
-    System.out.println("Ingrese el valor de B");
-    b = entradan.nextDouble();
-    System.out.println("Ingrese el valor de C");
-    c = entradan.nextDouble();
+    int valor1, valor2;
     
-    resultadop = (-b +Math.sqrt(Math.pow(b,2) - (4*a*c)))/(2*a);
-    resultadon = (-b -Math.sqrt(Math.pow(b,2) - (4*a*c)))/(2*a);
-    
-    System.out.println("El valor positivo es " +resultadop);
-    System.out.println("El valor negativo es " +resultadon);
+    valor1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese Valor", "Entrada N-1", JOptionPane.ERROR_MESSAGE));
+    valor2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese Valor", "Entrada N-2", JOptionPane.ERROR_MESSAGE));
+    if (valor1 != valor2){
+        System.out.println("(!=) El "+ valor1+" es diferente de "+ valor2);
+    }
+    if (valor1 < valor2 || valor1 > valor2){
+        System.out.println("(||) El "+ valor1+" es  diferente que "+ valor2);
+    }
+    if (valor1 < valor2){
+        System.out.println("El "+ valor1+"  es menor que "+ valor2); 
+    }
+    if (valor1 > valor2){
+        System.out.println("El "+ valor1+"  es mayor que "+ valor2);
+    }
+    if (valor1 <= valor2 && valor1 >= valor2){
+        System.out.println("(&&) El "+ valor1+"  es  igual que "+ valor2); 
+    }
+    if (valor1 == valor2){
+        System.out.println("(==) El "+ valor1+" es  igual que "+ valor2);
+    }
+
     }    
 
 }
