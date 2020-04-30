@@ -28,7 +28,7 @@ public class cap3sec3sentenciaswitch {
         }
     else
     {
-        System.out.println("(else) El "+ valor1+" no es una opcion valida"); 
+        JOptionPane.showMessageDialog(null,     "(else) El valor no es una opcion valida " + valor1,   "Muestra de Valor Caso Errado",   JOptionPane.PLAIN_MESSAGE,  icon);
     }    
   }
 }
