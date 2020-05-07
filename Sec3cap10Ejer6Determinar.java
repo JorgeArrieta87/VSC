@@ -34,5 +34,19 @@ public class Sec3cap10Ejer6Determinar {
             JOptionPane.showMessageDialog(null, "El numero "+ numero2 + " es inpar", "Validacion de Numero InPar", JOptionPane.ERROR_MESSAGE);
             }
     
+        if ((numero1  == 0 ) && (numero2 == 0 )){ 
+        
+                JOptionPane.showMessageDialog(null, "El numero "+ numero1 + " y "+ numero2 +"no son posible categorizarlo ", "Validacion de Numero Invalido", JOptionPane.ERROR_MESSAGE);
+            }    
+        if ((numero1%2 == 0 ) && (numero2%2 == 0 )){
+            JOptionPane.showMessageDialog(null, "El numero "+ numero1 + " y "+ numero2 +"  son numero Pares ", "Validacion de Numero Par - Inpar", JOptionPane.ERROR_MESSAGE);
+        }
+        if ((numero1%2 != 0 ) && (numero2%2 != 0 )){
+            JOptionPane.showMessageDialog(null, "El numero "+ numero1 + " y "+ numero2 +"  son numero INPares ", "Validacion de Numero InPar", JOptionPane.ERROR_MESSAGE);
+        }
+        if (((numero1%2 == 0 ) && (numero2%2 != 0 )) || ((numero1%2 != 0 ) && (numero2%2 == 0 ))) {
+            JOptionPane.showMessageDialog(null, "El numero "+ numero1 + " y "+ numero2 +"  no son numero del mismo tipo INPares ", "Validacion de Numero InPar", JOptionPane.ERROR_MESSAGE);
+        }
+
     }
 }
