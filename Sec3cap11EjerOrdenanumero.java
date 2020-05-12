@@ -38,9 +38,9 @@ public class Sec3cap11EjerOrdenanumero {
     }
     
     if ((numero3<numero1 ) && (numero3>numero2 )){
-        nummed = numero3;
-        System.out.println(nummed);
-    }
+       nummed = numero3;
+       System.out.println(nummed);
+   }
     
     //Validacion Numero Menor
     if ((numero1<numero2 ) && (numero1<numero3 )){
