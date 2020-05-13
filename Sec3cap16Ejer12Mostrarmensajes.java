@@ -25,6 +25,7 @@ public class Sec3cap16Ejer12Mostrarmensajes  {
             break;
             case 10:System.out.println("Su resultado es " + x);
             break;
+            default: System.out.println("Error de Nota");
         }  
     }
     else System.out.println("Nota Invalida, Ingrese Valor de 0 a 10");
