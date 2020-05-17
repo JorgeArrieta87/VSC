@@ -42,7 +42,7 @@ public class Sec3cap18Ejer14Transformarmedidas {
             resultado = kilos * 1000000; 
             u = m;
         }  
-        JOptionPane.showMessageDialog(null, "La cantidad de "+ kilos +" representa en\n" + u + "  "+ resultado, "Convertidor de Kilos a Otras Unidades", JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(null, "La cantidad de Kilos"+ kilos +" representa en\n" + u + "  "+ resultado, "Convertidor de Kilos a Otras Unidades", JOptionPane.ERROR_MESSAGE);
     
     }
     else JOptionPane.showMessageDialog(null, "Opcion Invalida\n", "Convertidor de Kilos a Otras Unidades", JOptionPane.ERROR_MESSAGE);
