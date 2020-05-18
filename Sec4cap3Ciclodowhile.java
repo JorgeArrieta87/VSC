@@ -15,9 +15,9 @@ public class Sec4cap3Ciclodowhile {
        
        // segundo ejercisio dentro de la misma clase
         int contador;
-        i =0;
+        i =0; // Se lleva la variable a "0", para poder continuar con el programa
         Scanner  entrada = new Scanner(System.in);
-        System.out.print("Digite el Tope del Conteo");
+        System.out.println("Digite el Tope del Conteo");
         contador = entrada.nextInt();
 
         do {
