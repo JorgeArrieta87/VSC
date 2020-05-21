@@ -18,8 +18,12 @@ public class Sec4cap4Ciclofor {
         for (int i = 0; i < contador; i++){
             System.out.println(i);
         }
+        for (int i = 0; i < contador; i+=2){
+            System.out.println(i);
+        }
         for (int i = 0; i > -contador; i--){
             System.out.println(i);
        }
+       
     }
 }
