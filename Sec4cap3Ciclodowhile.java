@@ -11,7 +11,7 @@ public class Sec4cap3Ciclodowhile {
         while (i < 9); //while "mientras"
         {
             
-            System.out.println("cuando el valor sea  --" + i + "se dejara de repetir el ciclo");
+            System.out.println("cuando el valor sea  --" + i + "  se dejara de repetir el ciclo");
         }
        
        // segundo ejercisio dentro de la misma clase
