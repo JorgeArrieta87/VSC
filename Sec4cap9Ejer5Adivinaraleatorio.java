@@ -4,8 +4,7 @@ public class Sec4cap9Ejer5Adivinaraleatorio {
         int numing, i;
         double aleatorio;
         numing = 0; i = 0;
-        aleatorio = Math.random();
-        aleatorio *= 100;
+        aleatorio = Math.random()*100;
         aleatorio = Math.round(aleatorio);
         if ((aleatorio > 1) && (aleatorio < 100)){
             System.out.println("Numero Dentro del rango ");
