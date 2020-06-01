@@ -15,17 +15,17 @@ public class Sec4cap9Ejer5Adivinaraleatorio {
                     if ((numing > 1) && (numing < 100)){
                         System.out.println("Numero Introducido Permitido " + numing );
                         if  (numing > aleatorio) {
-                            System.out.println("Numero Ingresado es mayor que el Aleatorio");
+                            System.out.println("\nNumero Ingresado es mayor que el Aleatorio");
                             i++;
                             }
                          if (numing < aleatorio)  {
-                            System.out.println("Numero Ingresado es menor que el Aleatorio");
+                            System.out.println("\nNumero Ingresado es menor que el Aleatorio");
                             i++;
                             }
                     } 
                     else {
-                        System.out.println("ERROR en Numero Numero Ingresado");
-                        System.out.println("                                       ");
+                        System.out.println("\nERROR en Numero Numero Ingresado");
+                        System.out.println("\n                                       ");
                       }
                 }
                 
@@ -33,7 +33,7 @@ public class Sec4cap9Ejer5Adivinaraleatorio {
                 
            while (aleatorio != numing);
                 {
-                System.out.println("ADIVINO el Numero "+ aleatorio + " = "+ numing + "  en  "+ i + "  intentos"  );
+                System.out.println("\nADIVINO el Numero "+ aleatorio + " = "+ numing + "  en  "+ i + "  intentos"  );
                 } 
             
             
