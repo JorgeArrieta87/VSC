@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class Sec4cap9Ejer5Adivinaraleatorio {
     public static void main (String[]args){
-        int numing;
+        int numing, i;
         double aleatorio;
-        numing = 0;
+        numing = 0; i = 0;
         aleatorio = Math.random();
         aleatorio *= 100;
         aleatorio = Math.round(aleatorio);
@@ -17,9 +17,11 @@ public class Sec4cap9Ejer5Adivinaraleatorio {
                         System.out.println("Numero Introducido Permitido " + numing );
                         if  (numing > aleatorio) {
                             System.out.println("Numero Ingresado es mayor que el Aleatorio");
+                            i++;
                             }
                          if (numing < aleatorio)  {
                             System.out.println("Numero Ingresado es menor que el Aleatorio");
+                            i++;
                             }
                     } 
                     else {
@@ -32,7 +34,7 @@ public class Sec4cap9Ejer5Adivinaraleatorio {
                 
            while (aleatorio != numing);
                 {
-                System.out.println("ADIVINO el Numero "+ aleatorio + " = "+ numing );
+                System.out.println("ADIVINO el Numero "+ aleatorio + " = "+ numing + "  en  "+ i + "  intentos"  );
                 } 
             
             
