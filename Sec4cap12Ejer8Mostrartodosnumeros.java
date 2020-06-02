@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-public class Sec4cap11Ejer7Calcularelpromedio {
+public class Sec4cap12Ejer8Mostrartodosnumeros {
     public static void main (String[]args){
         int i, itera, dato;
         itera = 0; i = 0;
