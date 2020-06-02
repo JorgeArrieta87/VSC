@@ -1,20 +1,19 @@
 import javax.swing.JOptionPane;
 public class Sec4cap11Ejer7Calcularelpromedio {
     public static void main (String[]args){
-        int i, itera, pro, dato;
-        itera = 0; 
-        i = 0;
-        
+        int i, itera, dato;
+        itera = 0; i = 0;
+        double pro;
         do {
         dato = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese un Numero", "Validacion Par o Inpar", JOptionPane.ERROR_MESSAGE));
-        itera = dato + itera;
-        pro =  itera / i++;
-        System.out.println(itera +"    "+ dato);
+        itera += dato;
+        pro =  itera / (++i);
+        System.out.println(itera +"    "+ dato+"    "+pro+"    "+i);
         }
         
-        while (dato < 1); 
+        while (dato > 0); 
         {
-            JOptionPane.showMessageDialog(null, "La sumatoria Total es "+itera, "El Promedio"+ pro, JOptionPane.ERROR_MESSAGE); 
+            JOptionPane.showMessageDialog(null, i + "La sumatoria Total es "+itera, "El Promedio  "+ pro, JOptionPane.ERROR_MESSAGE); 
         }    
     }
 }
