@@ -17,7 +17,7 @@ public class cap3sec3sentenciaswitch {
             case 2 : JOptionPane.showMessageDialog(null,     "El valor Ingresado es " + valor1,   "Muestra de Valor Caso "+ valor1,   JOptionPane.PLAIN_MESSAGE,  icon);
             break;
             case 3 : JOptionPane.showMessageDialog(null,     "El valor Ingresado es " + valor1,   "Muestra de Valor Caso "+ valor1,   JOptionPane.PLAIN_MESSAGE,  icon);
-            break;
+            
             case 4 : JOptionPane.showMessageDialog(null,     "El valor Ingresado es " + valor1,   "Muestra de Valor Caso "+ valor1,   JOptionPane.PLAIN_MESSAGE,  icon);
             break;
             case 5 : JOptionPane.showMessageDialog(null,     "El valor Ingresado es " + valor1,   "Muestra de Valor Caso "+ valor1,   JOptionPane.PLAIN_MESSAGE,  icon);
