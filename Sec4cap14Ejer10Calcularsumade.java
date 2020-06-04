@@ -1,8 +1,8 @@
 import javax.swing.JOptionPane;
 public class  Sec4cap14Ejer10Calcularsumade {
     public static void main (String[]args){
-        int i, suma, numero;
-       suma = 1; i = 0; 
+        int i, numero;
+       long suma = 1; i = 0; 
        do {
         numero = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese un numero", "Validacion de Sumatoria", JOptionPane.ERROR_MESSAGE));
         if (numero > 0){
