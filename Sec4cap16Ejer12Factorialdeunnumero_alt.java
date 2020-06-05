@@ -15,7 +15,7 @@ public class  Sec4cap16Ejer12Factorialdeunnumero_alt {
                 JOptionPane.showMessageDialog(null, "El valor de el Numero es menor que 0", "Producto Iterativo", JOptionPane.ERROR_MESSAGE);
             }
          }
-      while (veces < numero);
+      while (veces <= numero);
             {
                 JOptionPane.showMessageDialog(null, "El valor del Producto Iterativo es  "+ suma, "Producto Iterativo", JOptionPane.ERROR_MESSAGE);               
             }     
