@@ -1,17 +1,17 @@
 import javax.swing.JOptionPane;
 public class  Sec4cap18Ejer14Pedirsueldosmostrar {
     public static void main (String[]args){
-    int numero, positivo, negativo, suma, resta, cero;  
-    positivo = 0; negativo = 0; suma = 0; resta = 0; cero = 0; 
+    int numero, positivo,  suma;  
+    positivo = 0;  suma = 0;  
     for(int i =0; i <= 9; i++ ) { 
         numero = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese un numero", "Media Positiva Negativa ", JOptionPane.ERROR_MESSAGE));
             if (numero > 0)
             {
             positivo += numero;
-            }    
-            else if (numero > 1000)
-            {
+            if (numero > 1000)
+                {
                 suma++;  
+                }
             }
             else
             {
@@ -21,7 +21,7 @@ public class  Sec4cap18Ejer14Pedirsueldosmostrar {
             
         } 
        
-       JOptionPane.showMessageDialog(null, "La suma de los Sueldos es "+ positivo + "\n Los que superan los 1000 son \n"+ suma,  "Media Sueldos", JOptionPane.ERROR_MESSAGE);           
+       JOptionPane.showMessageDialog(null, "La suma de los Sueldos es "+ positivo + "\n Los que superan los 1000 son \n"+ suma,  "Media Sueldos   ", JOptionPane.ERROR_MESSAGE);           
     }
 
 }
