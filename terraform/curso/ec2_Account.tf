@@ -1,13 +1,13 @@
 provider "aws" {
     region = "us-east-2"
-    access_key ="AKIA5MHU5MRUBDTHL7GQ" 
-    secret_key ="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"
+    access_key ="AKIA5MHU5MRUFRTWO2YA" 
+    secret_key ="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"
 }
 
-resource "aws_instance" "test" {
-    ami = "ami-0a54aef4ef3b5f881"
-    instance_type ="t2.micro"
-}
+#  resource "aws_instance" "test" {
+#    ami = "ami-0a54aef4ef3b5f881"
+#    instance_type ="t2.micro"
+#}
 
 resource "aws_vpc" "main1" {
 cidr_block = "10.0.0.0/16"
