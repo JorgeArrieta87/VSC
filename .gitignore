@@ -1,1 +1,10 @@
+<<<<<<< Updated upstream
 \.terraform
+=======
+\.terraform
+terraform/curso/class_key.pem
+terraform/curso/class_key.pem.pub
+*.class
+.vscode
+/curso java 8/Sec4cap21Ejer17Resumenventasfactura/target/
+>>>>>>> Stashed changes
